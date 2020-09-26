@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>American/British English Translator</title>
+    <meta
+      name="description"
+      content="freeCodeCamp American British Translator"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../public/style.css" type="text/css" />
+		<link rel="stylesheet" href="../public/style.css" type="text/css" />
+		<link
+      rel="shortcut icon"
+      href="https://nesh.gq/icon.png"
+      type="icon/png"
+    />
+  </head>
+  <body>
+			<div id='mainContainer'>
+				<h2>American / British English Translator</h2>
+				<div id='centerContainer'>
+					<div id='leftSide'>
+						<textarea rows="10" cols="60" id="text-input"></textarea>
+						<div id='leftBottom'>
+							<select id="locale-select">
+									<option value="american-to-british">American to British</option>
+									<option value="british-to-american">British to American</option>
+							</select>
+							<div id='buttonContainer'>
+								<input type="button" value="Translate" id="translate-btn" />
+								<input type="button" value="Clear" id="clear-btn" />
+							</div>
+						</div>
+					</div>
+					<div id='rightSide'>
+						<!--<h4>Translation:</h4> -->
+						<div id="translated-sentence"></div>
+						<div id="error-msg"></div>
+					</div>
+				</div>
+				<p>by <a href="">Nguy3n</a></p>
+			</div>
+  </body>
+  <script src="../public/translator.js" type="module"></script>
+</html>
